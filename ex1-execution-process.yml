@@ -1,0 +1,9 @@
+-
+  name: playbook on usecase of execution
+  hosts: client1
+  tasks:
+    - name: git_installation_code
+      yum:
+        name: git
+        state: present
+        
